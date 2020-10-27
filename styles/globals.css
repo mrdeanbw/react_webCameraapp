@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap'); */
+@font-face {
+    font-family: 'StreakerFreaker';
+    src: url('../public/StreakerFreaker.woff2') format('woff2'),
+        url('../public/StreakerFreaker.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  html, body {
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'StreakerFreaker';
+    font-weight: normal;
+    font-style: normal;
+    font-size: x-large;
+  }

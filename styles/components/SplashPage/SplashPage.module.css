@@ -1,0 +1,52 @@
+.splashPage {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+.unSplash {
+  display: none;
+}
+
+.title {
+  font-size: 100px;
+  margin: 64px 0;
+}
+
+.splashButton {
+  font-family: 'StreakerFreaker';
+  font-weight: normal;
+  font-style: normal;
+  font-size: xx-large;
+  border-radius: 100px;
+  background: white;
+  color: black;
+  border-color: black;
+
+}
+.splashButton:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.disclaimer {
+  font-weight: lighter;
+  font-size: 40px;
+  margin: 32px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 80px;
+  }
+  .disclaimer {
+    font-size: 40px;
+  }
+}
